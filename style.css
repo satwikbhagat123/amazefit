@@ -1,0 +1,430 @@
+*{
+           box-sizing:border-box;
+           margin: 0;
+           padding: 0;
+}
+
+html,body{
+      width: 100%;
+      height: 100%;
+}
+
+#nav{
+    width: 100%;
+    height: 92px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.068);
+}
+
+#nav h4{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #7f7f7f;
+}
+
+#nav-img{
+    width: 210px;
+    height: 70px;
+    /* background-color: blue; */
+    padding: 10px;
+    padding-left: 0px;
+    margin-left: 80px;
+}
+
+#nav-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#nav-lang{
+    width: 100px;
+    height: 50px;
+    padding-top: 8px;
+    margin-left: 100px;
+    /* background-color: blue; */
+}
+
+#nav-lang i{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#nav-lang h4{
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#nav-country{
+    width: 170px;
+    height: 40px;
+    /* background-color: blue; */
+    margin-right: 80px;
+   
+}
+
+#nav-country-img {
+    position: fixed;
+    top: 20px;  /* Adjust this value to position from top */
+    right: 80px;  /* Adjust this value to position from right */
+    width: 130px;  /* Adjusted width for better layout */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;  /* Space between image and text */
+    z-index: 999;  /* Ensures it stays above other content */
+    background-color: #faf8f8;  /* Optional: adds background */
+    padding: 5px;  /* Optional: adds some padding */
+}
+
+#nav-country-img img {
+    width: 30px;  /* Adjust image size as needed */
+    height: 30px;
+    object-fit: contain;
+}
+
+#nav-country-img h4 {
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap;  /* Prevents text wrapping */
+}
+
+#nav-country h4{
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+#main{
+    margin-top: 22px;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 3;
+    
+}
+
+#content-top {
+    top: 0; /* Stick to the top of its container */
+    background-color: white; /* Optional: add a background to avoid overlapping with moving images */
+    padding: 50px 0; /* Adjust padding to maintain spacing */
+}
+
+
+#content-top h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #343434;
+    font-family: 'Poppins', sans-serif;
+}
+
+#content-top h3{
+    padding-top: 14px;
+    font-size: 30px;
+    color: #343434;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+#content-top p{
+    margin-top: 27px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+}
+
+#content-bottom{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+#content-bottom img{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    
+}
+
+
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 80px;
+    padding-left: 170px;
+    padding-top: 70px;
+    padding-right: 100px;
+}
+
+
+.card1{
+    width: 324px;
+    height: 446px;
+    background-color: #F0EAE7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+
+.card1 h2{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card1 p{
+    font-size: 1em;
+}
+
+.card1-img{
+    width: 100%;
+    height: 82%;
+    background-color: yellow;
+}
+
+.card1-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card2{
+    width: 324px;
+    height: 305px;
+    background-color: #E8E6E5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+
+.card2 h2{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card2 p{
+    font-size: 1em;
+}
+
+.card2-img{
+    width: 100%;
+    height: 82%;
+    background-color: yellow;
+}
+
+.card2-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.card3{
+    width: 324px;
+    height: 320px;
+    background-color: #F2EFE7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+
+.card3 h2{
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.card3 p{
+    font-size: 0.9em;
+}
+
+.card3-img{
+    width: 100%;
+    height: 82%;
+    background-color: yellow;
+}
+
+.card3-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.card-container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* margin-top: 80px; */
+    padding-left: 170px;
+    padding-top: 23px;
+    padding-right: 100px;
+}
+
+
+.card4{
+    width: 324px;
+    height: 254px;
+    background-color: #F0EAE7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://cdn.shopify.com/s/files/1/0623/9410/6042/files/2_2_2x_abad0845-9d89-4be5-9f73-c82c76292380.jpg?v=1678350529');
+    background-size: cover;
+    background-position: center;
+    /* justify-content: space-between; */
+    
+}
+
+.card4 h2{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card4 p{
+    font-size: 1em;
+}
+
+/* .card4-img{
+    width: 100%;
+    height: 82%;
+    background-color: yellow;
+}
+
+.card4-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.card5{
+    width: 324px;
+    height: 195px;
+    background-color: #B1C2AC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://cdn.shopify.com/s/files/1/0406/4500/1379/files/96_2x_99d002bf-c61c-4bb4-88c8-2430b22da2dd.png?v=1678693912');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -148px;
+    left: 96px;
+    /* justify-content: space-between; */
+    
+}
+
+.card5 h2{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card5 p{
+    font-size: 1em;
+}
+
+
+
+.card6{
+    width: 324px;
+    height: 394px;
+    background-color: #B1C2AC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://cdn.shopify.com/s/files/1/0623/9410/6042/files/img7-1.jpg?v=1677163823');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -128px;
+    left: 176px;
+    /* justify-content: space-between; */
+    
+}
+
+.card6 h2{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card6 p{
+    font-size: 1em;
+}
+
+
+
+.card7{
+    width: 324px;
+    height: 191px;
+    background-color: #B1C2AC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://cdn.shopify.com/s/files/1/0406/4500/1379/files/2_7_2x_4516b1c7-5d8b-4937-99d1-67d7d3cc07e0.png?v=1678693911');
+    background-position: center;
+    position: relative;
+    top: 68px;
+    left: -446px;
+    /* justify-content: space-between; */
+    
+}
+
+.card7 h2{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card7 p{
+    font-size: 1em;
+}
